@@ -12,14 +12,17 @@ import {
 import React from 'react';
 import { RiSecurePaymentFill } from 'react-icons/ri';
 import { Link } from 'react-router-dom';
-import ImageSrc from '../../assets/images/founder.jpg';
-import introVideo from '../../assets/vidios/intro.mp4';
 import termsAndCondition from '../../assets/docs/termsAndCondition';
 
 const Founder = () => (
   <Stack direction={['column', 'row']} spacing={['4', '16']} padding={'8'}>
     <VStack>
-      <Avatar src={ImageSrc} boxSize={['40', '48']} />
+      <Avatar
+        src={
+          'https://res.cloudinary.com/do3egmobd/image/upload/v1683035420/personal/founder_nbnszd.jpg'
+        }
+        boxSize={['40', '48']}
+      />
       <Text children="Co-Founder" opacity={'0.7'} />
     </VStack>
     <VStack justifyContent={'center'} alignItems={['center', 'flex-start']}>
@@ -40,7 +43,9 @@ const VideoPlayer = () => (
       muted
       controls
       controlsList="nodownload nofullscreen noremoteplayback"
-      src={introVideo}
+      src={
+        'https://res.cloudinary.com/do3egmobd/video/upload/v1683089715/personal/intro_ddlark.mp4'
+      }
       disablePictureInPicture
       disableRemotePlayback
     ></video>

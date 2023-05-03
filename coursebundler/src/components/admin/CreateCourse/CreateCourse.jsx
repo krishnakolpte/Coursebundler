@@ -9,7 +9,6 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
-import cursorPng from '../../../assets/images/cursor.png';
 import SideBar from '../SideBar';
 import { fileUploadCss } from '../../auth/Register';
 import { createCourse } from '../../../redux/Actions/admin';
@@ -73,7 +72,9 @@ function CreateCourse() {
 
   return (
     <Grid
-      css={{ cursor: `url(${cursorPng}),default` }}
+      css={{
+        cursor: `url(${'https://res.cloudinary.com/do3egmobd/image/upload/v1683089808/personal/cursor_z3ej6v.png'}),default`,
+      }}
       minH={'100vh'}
       templateColumns={['1fr', '5fr 1fr']}
     >

@@ -19,7 +19,6 @@ import React, { useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { RiDeleteBin7Fill } from 'react-icons/ri';
 import { useDispatch, useSelector } from 'react-redux';
-import cursorPng from '../../../assets/images/cursor.png';
 import {
   addLecture,
   deleteCourse,
@@ -126,7 +125,7 @@ function AdminCourses() {
   return (
     <Grid
       css={{
-        cursor: `url(${cursorPng}), default`,
+        cursor: `url(${'https://res.cloudinary.com/do3egmobd/image/upload/v1683089808/personal/cursor_z3ej6v.png'}), default`,
       }}
       minH={'100vh'}
       templateColumns={['1fr', '5fr 1fr']}

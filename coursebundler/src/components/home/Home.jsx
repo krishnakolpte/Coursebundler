@@ -11,12 +11,14 @@ import {
   HStack,
 } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/bg.png';
 import { SiMongodb } from 'react-icons/si';
 import { FaNodeJs, FaReact, FaCss3Alt } from 'react-icons/fa';
-import introVideo from '../../assets/vidios/intro.mp4';
 
 const Home = () => {
+  const logo =
+    'https://res.cloudinary.com/do3egmobd/image/upload/v1683089794/personal/bg_ctf2ac.png';
+  const introVideo =
+    'https://res.cloudinary.com/do3egmobd/video/upload/v1683089715/personal/intro_ddlark.mp4';
   return (
     <section className="Home">
       <div className="container">
