@@ -13,7 +13,7 @@ import { RiSecurePaymentFill } from 'react-icons/ri';
 import { useDispatch, useSelector } from 'react-redux';
 import { buySubscription } from '../../redux/Actions/user';
 import { server } from '../../redux/Store';
-import logo from '../../assets/images/logo.png';
+// import logo from '../../assets/images/logo.png';
 
 function Subscibe({ user }) {
   const dispatch = useDispatch();
@@ -47,7 +47,8 @@ function Subscibe({ user }) {
           key,
           name: 'Course Bundler',
           description: 'Get access to all Premium content',
-          image: logo,
+          image:
+            'https://res.cloudinary.com/do3egmobd/image/upload/v1682762237/c2ol9ewpkwrklu8me2gt.png',
           subscription_id: subscriptionId,
           callback_url: `${server}/paymentverification`,
           prefill: {
