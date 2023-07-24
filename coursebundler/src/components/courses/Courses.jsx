@@ -85,9 +85,12 @@ const Courses = () => {
   const [keyword, setKeyword] = useState('');
   const [category, setCategory] = useState('');
   const categores = [
-    'web devolopment',
-    'Artificial Inteligence',
-    'Androide Devolopment',
+    'Web development',
+    'Artificial Intellegence',
+    'Data Structure & Algorithm',
+    'App Development',
+    'Data Science',
+    'Game Development',
   ];
 
   const dispatch = useDispatch();
