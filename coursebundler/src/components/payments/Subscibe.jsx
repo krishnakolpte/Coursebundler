@@ -13,7 +13,6 @@ import { RiSecurePaymentFill } from 'react-icons/ri';
 import { useDispatch, useSelector } from 'react-redux';
 import { buySubscription } from '../../redux/Actions/user';
 import { server } from '../../redux/Store';
-// import logo from '../../assets/images/logo.png';
 
 function Subscibe({ user }) {
   const dispatch = useDispatch();
