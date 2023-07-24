@@ -88,11 +88,6 @@ const Courses = () => {
     'web devolopment',
     'Artificial Inteligence',
     'Androide Devolopment',
-    '1',
-    'Web Devolopment',
-    'Artificial Inteligence',
-    'Androide Devolopment',
-    '1',
   ];
 
   const dispatch = useDispatch();
