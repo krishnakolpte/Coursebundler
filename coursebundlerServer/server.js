@@ -14,7 +14,7 @@ cloudinary.v2.config({
     api_secret: process.env.API_SECRATE,
 });
 
-nodeCron.schedule("0 0 0 5 * *", async () => {
+nodeCron.schedule("0 0 0 1 * *", async () => {
     try {
         await Stats.create({});
     } catch (error) {
